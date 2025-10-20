@@ -13,6 +13,7 @@ void PlayerInit()
 
 void PlayerUpdate()
 {
+    //プレイヤー更新
 }
 
 void PlayerDraw()
