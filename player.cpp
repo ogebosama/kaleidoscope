@@ -8,6 +8,7 @@ Date			: 20251020 - 20251020
 
 void PlayerInit()
 {
+    //プレイヤー初期化
 }
 
 void PlayerUpdate()
