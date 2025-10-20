@@ -17,6 +17,7 @@ void PlayerUpdate()
 
 void PlayerDraw()
 {
+    //プレイヤー描画
 }
 
 void PlayerFinalize()
