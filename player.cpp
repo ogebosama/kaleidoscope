@@ -1,25 +1,16 @@
-﻿/*--------------------------------------------------------------------------------
-FileName	:player.cpp.h（プレイヤー制御）
-Author		: SakamotoYuki
-Date			: 20251020 - 20251020
---------------------------------------------------------------------------------*/
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "player.h"
 
 void PlayerInit()
 {
-    //プレイヤーの初期化
-    float posX = 0.0f;
 }
 
 void PlayerUpdate()
 {
-	//aiueo
 }
 
 void PlayerDraw()
 {
-    //プレイヤー描画
 }
 
 void PlayerFinalize()
