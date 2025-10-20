@@ -8,9 +8,6 @@ Date			: 20251020 - 20251020
 
 void PlayerInit()
 {
-    //プレイヤー初期化
-   float posX = 0.0;
-   float posY = 0.0f;
 }
 
 void PlayerUpdate()
