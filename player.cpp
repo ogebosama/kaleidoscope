@@ -13,7 +13,7 @@ void PlayerInit()
 
 void PlayerUpdate()
 {
-    //プレイヤー更新処理
+    //プレイヤーアップデート
 }
 
 void PlayerDraw()
