@@ -12,10 +12,12 @@ void PlayerInit()
 
 void PlayerUpdate()
 {
+	//aiueo
 }
 
 void PlayerDraw()
 {
+	//描画
 }
 
 void PlayerFinalize()
