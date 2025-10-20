@@ -1,13 +1,14 @@
-﻿#include "stdafx.h"
+﻿/*--------------------------------------------------------------------------------
+FileName	:player.cpp.h（プレイヤー制御）
+Author		: Yoshihiro Kayamori
+Date			: 20251020 - 20251020
+--------------------------------------------------------------------------------*/
+#include "stdafx.h"
 #include "player.h"
 
 void PlayerInit()
 {
-	// プレイヤーの初期化処理
-
-	// 絵文字からテクスチャを作成する | Create a texture from an emoji
-	const Texture emoji{ U"🐶"_emoji };
-
+    //プレイヤー初期化
 }
 
 void PlayerUpdate()
@@ -17,7 +18,7 @@ void PlayerUpdate()
 
 void PlayerDraw()
 {
-	//描画
+    //プレイヤー描画
 }
 
 void PlayerFinalize()
