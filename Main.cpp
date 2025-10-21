@@ -39,7 +39,7 @@ void Main()
 		texture.draw(20, 20);
 
 		// テキストを描く | Draw text
-		font(U"Hello, Siv3D!🎮").draw(64, Vec2{ 20, 340 }, ColorF{ 0.2, 0.4, 0.8 });
+		font(U"こんにちは！HAL🎮").draw(64, Vec2{ 20, 340 }, ColorF{ 0.2, 0.4, 0.8 });
 
 		// 指定した範囲内にテキストを描く | Draw text within a specified area
 		font(U"Siv3D (シブスリーディー) は、ゲームやアプリを楽しく簡単な C++ コードで開発できるフレームワークです。")
