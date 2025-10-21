@@ -3,6 +3,7 @@
 
 void EnemyInit()
 {
+	const Texture emoji{ U"🦖"_emoji };
 }
 
 void EnemyUpdate()
