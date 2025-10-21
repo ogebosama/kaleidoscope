@@ -3,18 +3,20 @@
 
 void PlayerInit()
 {
-	TextureAsset::Register(U"Windmill", U"🦖"_emoji);
+	std::cout << "ここでプレイヤーを確定させます." << std::endl;
 }
 
 void PlayerUpdate()
 {
+	std::cout << "ここでプレイヤーを変身させます." << std::endl;
 }
 
 void PlayerDraw()
 {
-	TextureAsset(U"Windmill").mirrored(pLeft).drawAt(0, 300, { 1.0f,1.0f,1.0f,1.0f });
+	std::cout << "ここでプレイヤーを描画します." << std::endl;
 }
 
 void PlayerFinalize()
 {
+	std::cout << "ここでプレイヤーを倒します." << std::endl;
 }
