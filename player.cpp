@@ -17,19 +17,22 @@ void PlayerInit()
     player.y = 0.0f;
     player.speed = 5.0f;
     player.health = 100;
+	std::cout << "ここでプレイヤーを確定させます." << std::endl;
 }
 
 void PlayerUpdate()
 {
-    // プレイヤーこーしん
+	std::cout << "ここでプレイヤーを変身させます." << std::endl;
 }
 
 void PlayerDraw()
 {
     char buffer[100];
     sprintf(buffer, "Player Position: (%.2f, %.2f)", 0.0f, 0.0f);
+	std::cout << "ここでプレイヤーを描画します." << std::endl;
 }
 
 void PlayerFinalize()
 {
+	std::cout << "ここでプレイヤーを倒します." << std::endl;
 }
