@@ -6,10 +6,10 @@ void Main()
 	Scene::SetBackground(ColorF{ 0.6, 0.8, 0.7 });
 
 	// 画像ファイルからテクスチャを作成する | Create a texture from an image file
-	const Texture texture{ U"example/windmill.png" };
+	const Texture texture{ U"example/niarex.png" };
 
 	// 絵文字からテクスチャを作成する | Create a texture from an emoji
-	const Texture emoji{ U"🐈"_emoji };
+	const Texture emoji{ U"🐔"_emoji };
 
 	// 太文字のフォントを作成する | Create a bold font with MSDF method
 	const Font font{ FontMethod::MSDF, 48, Typeface::Bold };
@@ -39,7 +39,7 @@ void Main()
 		texture.draw(20, 20);
 
 		// テキストを描く | Draw text
-		font(U"こんにちは！HAL🎮").draw(64, Vec2{ 20, 340 }, ColorF{ 0.2, 0.4, 0.8 });
+		font(U"kaleidoscope").draw(64, Vec2{ 20, 340 }, ColorF{ 0.2, 0.4, 0.8 });
 
 		// 指定した範囲内にテキストを描く | Draw text within a specified area
 		font(U"Siv3D (シブスリーディー) は、ゲームやアプリを楽しく簡単な C++ コードで開発できるフレームワークです。")
