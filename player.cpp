@@ -7,10 +7,6 @@ void PlayerInit()
 
 void PlayerUpdate()
 {
-<<<<<<< HEAD
-	//aiueo
-=======
->>>>>>> main
 }
 
 void PlayerDraw()
